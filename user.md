@@ -7,10 +7,10 @@
 - 请求参数：
 ```json
 {
-  "user_phone": "用户手机号",
-  "user_code": "用户验证码",
-  "emergency_phone": "紧急联系人手机号",
-  "emergency_code": "紧急联系人验证码",
+  "user_phone_number": "用户手机号",
+  "user_sms_code": "用户验证码",
+  "emergency_phone_number": "紧急联系人手机号",
+  "emergency_sms_code": "紧急联系人验证码",
   "password": "密码"
 }
 ```
