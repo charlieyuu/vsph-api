@@ -1,5 +1,7 @@
 ﻿# 用户模块
 
+**重要：当前手机验证码均填写123456**
+
 ## 1. 用户注册
 
 - 接口路径：`/api/user/register`
@@ -28,14 +30,14 @@
 - 请求参数：
 ```json
 {
-  "phone": "手机号",
+  "phone_number": "手机号",
   "password": "密码",
-  "code": "验证码"
+  "sms_code": "验证码"
 }
 ```
 - 参数说明：
-    - `password`：密码登录时必填
-    - `code`：验证码登录时必填
+  - `password`：密码登录时必填
+  - `code`：验证码登录时必填
 - 响应示例：
 ```json
 {
@@ -54,9 +56,9 @@
 - 请求参数：
 ```json
 {
-  "phone": "手机号",
-  "password": "新密码",
-  "code": "验证码"
+  "phone_number": "手机号",
+  "new_password": "新密码",
+  "sms_code": "验证码"
 }
 ```
 - 响应示例：
