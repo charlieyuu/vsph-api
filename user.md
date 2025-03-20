@@ -36,8 +36,8 @@
 }
 ```
 - 参数说明：
-  - `password`：密码登录时必填
-  - `code`：验证码登录时必填
+    - `password`：密码登录时必填
+    - `code`：验证码登录时必填
 - 响应示例：
 ```json
 {
@@ -79,17 +79,13 @@
   "code": 200,
   "message": "获取成功",
   "data": {
-    "user_phone": "用户手机号",
-    "emergency_phone": "紧急联系人手机号",
-    "avatar": "头像地址",
-    "nickname": "昵称"
+    "user_phone_number": "用户手机号",
+    "emergency_phone_number": "紧急联系人手机号",
+    "avatar_url": "头像地址",
+    "username": "用户名"
   }
 }
 ```
-- 响应说明：
-  - `avatar`：头像地址
-  - `nickname`：昵称
-  - **用户信息字段待定**
 
 ## 5. 获取头像库
 - 接口路径：`/api/user/avatars`

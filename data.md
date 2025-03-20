@@ -11,8 +11,8 @@
   "screen_time": 120,
   "steps": 1000,
   "call_count": 10,
-  "sms_count": 20,
-  "gps": [
+  "message_count": 20,
+  "gps_points": [
     {
       "latitude": 30.123456,
       "longitude": 120.123456,
@@ -31,8 +31,8 @@
   - `screen_time`：屏幕使用时长（单位：秒）
   - `steps`：步数
   - `call_count`：通话次数
-  - `sms_count`：短信次数
-  - `gps`：GPS数据
+  - `message_count`：短信次数
+  - `gps_points`：GPS数据
     - `latitude`：纬度
     - `longitude`：经度
     - `timestamp`：时间戳

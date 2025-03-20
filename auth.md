@@ -2,17 +2,14 @@
 
 ## 1. 请求手机验证码
 
-- 接口路径：`/api/auth/send-code`
+- 接口路径：`/api/auth/send-sms-code`
 - 请求方法： `POST`
 - 请求参数：
 ```json
 {
-  "phone": "手机号",
-  "type": "user | emergency"
+  "phone_number": "手机号"
 }
 ```
-- 参数说明：
-  - `type`：验证码类型，`user`为用户验证码，`emergency`为紧急联系人验证码
 - 响应示例：
 ```json
 {
