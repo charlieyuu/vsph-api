@@ -20,7 +20,7 @@
 
 ## 2. 刷新token
 - 接口说明：当`access_token`过期时，使用`refresh_token`刷新`access_token`，同时返回新的`refresh_token`
-- 接口路径：`/api/auth/refresh`
+- 接口路径：`/api/auth/refresh-access-token`
 - 请求方法： `POST`
 - 请求参数：
 ```json

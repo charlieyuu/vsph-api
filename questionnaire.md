@@ -99,15 +99,15 @@
   "answers": [
     {
       "number": 1,
-      "answer": "答案"
+      "value": "答案"
     },
     {
       "number": 2,
-      "answer": 5
+      "value": 5
     },
     {
       "number": 3,
-      "answer": 1
+      "value": 1
     }
   ]
 }
