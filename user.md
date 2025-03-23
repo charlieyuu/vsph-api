@@ -18,7 +18,10 @@
 ```json
 {
   "code": 200,
-  "message": "注册成功"
+  "data": {
+    "access_token": "token",
+    "refresh_token": "token"
+  }
 }
 ```
 
@@ -40,7 +43,6 @@
 ```json
 {
   "code": 200,
-  "message": "登录成功",
   "data": {
     "access_token": "token",
     "refresh_token": "token"
