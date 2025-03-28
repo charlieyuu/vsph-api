@@ -23,6 +23,8 @@
 - 请求方法： `POST`
 - 请求头：`Authorization: Bearer {access_token}; Content-Type: multipart/form-data`
 - 请求参数：
+  - `questionnaire_id`: 问卷ID
+  - `question_number`: 问题序号
   - `file`: 录音文件
 - 响应示例：
 ```json
@@ -31,4 +33,3 @@
   "message": "上传成功"
 }
 ```
-- Todo：可以考虑使用阿里云OSS服务

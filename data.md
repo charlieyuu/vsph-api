@@ -32,7 +32,7 @@
   - `steps`：步数
   - `call_count`：通话次数
   - `message_count`：短信次数
-  - `gps_points`：GPS数据
+  - `gps_points`：GPS数据，可以为空或不填
     - `latitude`：纬度
     - `longitude`：经度
     - `timestamp`：时间戳
