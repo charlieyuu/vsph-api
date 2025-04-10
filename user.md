@@ -33,7 +33,8 @@
 {
   "phone_number": "手机号",
   "password": "密码",
-  "sms_code": "验证码"
+  "sms_code": "验证码",
+  "device_id": "从移动推送SDK获取的DeviceId"
 }
 ```
 - 参数说明：
