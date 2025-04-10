@@ -47,3 +47,44 @@
   "data": null
 }
 ```
+
+## 3. 绑定设备
+- 接口路径：`/api/push/bind`
+- 请求方法： `POST`
+- 请求参数：
+```json
+{
+  "phone_number": "手机号",
+  "device_id": "设备ID",
+}
+```
+- 响应示例：
+```json
+{
+  "code": 200,
+  "message": null,
+  "data": null
+}
+```
+- 参数说明：
+    - `phone_number`：用户手机号
+    - `device_id`：设备ID
+
+## 4. 解绑设备
+- 接口路径：`/api/push/unbind`
+- 请求方法： `POST`
+- 请求参数：
+```json
+{
+  "phone_number": "手机号",
+  "device_id": "设备ID",
+}
+```
+- 响应示例：
+```json
+{
+  "code": 200,
+  "message": null,
+  "data": null
+}
+```
